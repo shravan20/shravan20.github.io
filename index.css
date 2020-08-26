@@ -25,8 +25,45 @@ body {
 
 /* To show image */
 
+.img1 {
+    background-image: url(images.jpeg);
+    width: 100%;
+}
+
+.img2 {
+    background-image: url(1.jpeg);
+}
+
+.img3 {
+    background-image: url(2.jpeg);
+}
+
+.img4 {
+    background-image: url(3.jpeg);
+}
+
+.img5 {
+    background-image: url(4.jpeg);
+}
+
+.img6 {
+    background-image: url(5.jpeg);
+}
+
+.img7 {
+    background-image: url(6.jpeg);
+}
+
+.img8 {
+    background-image: url(7.jpeg);
+}
+
+.img9 {
+    background-image: url(8.jpeg);
+}
+
 #circle {
-    background: yellow;
+    /* background: yellow; */
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -52,4 +89,15 @@ body {
     .container {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+
+/* Footer */
+
+footer {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 }
