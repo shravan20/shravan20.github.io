@@ -1,5 +1,6 @@
 body {
-    background-color: lightblue;
+    background-color: black;
+    font-family: 'DM Mono', monospace;
 }
 
 .welcome-header {
@@ -19,4 +20,36 @@ body {
     border-radius: 1rem;
     box-shadow: #8a795d;
     text-align: center;
+}
+
+
+/* To show image */
+
+#circle {
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+/* For the Grid System */
+
+.container {
+    gap: 2rem 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 12.5rem;
+    width: 100%;
+    /* max-width: 37.5rem; */
+    padding: 0.5rem;
+    padding-left: 10%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 27em) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
